@@ -19,3 +19,8 @@
     font-family: 'Public Sans', sans-serif;
     src: url("font/PublicSans-Regular.ttf") format("ttf");
 }
+body {
+    font-family: 'Public Sans', sans-serif;
+    font-size: var(--font-base);
+    font-weight: var(--font-weight);
+}
