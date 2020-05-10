@@ -10,7 +10,7 @@
     --neutral-white: hsl(0, 0%, 100%):;
 
     --font-base: 18px;
-    --font-weight: 400;
+    --font-weight: 300;
 
     --mobile: 375px;
     --desktop: 1440px;
@@ -35,6 +35,7 @@ a {
     text-decoration: none;
     text-transform: capitalize;
 }
+
 /*NAVIGATION STYLES*/
 
 .nav {
@@ -53,10 +54,13 @@ a {
     display: inline;
 }
 .logo {
-    width: 140px;
+    min-width: 140px;
     height: 40px;
-    background: url('img/logo.svg') no-repeat center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .is-hidden {
     visibility: hidden;
 }
+/*HOME STYLES*/
