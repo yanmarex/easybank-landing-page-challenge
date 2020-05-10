@@ -68,3 +68,21 @@ a {
     width: 100px;
     height: 100px;
 }
+/*BLOG STYLES*/
+.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blog-img {
+    width: 100%;
+    border-radius: 15px;
+}
+.blog-articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+}
