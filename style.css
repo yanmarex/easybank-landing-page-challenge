@@ -23,4 +23,11 @@ body {
     font-family: 'Public Sans', sans-serif;
     font-size: var(--font-base);
     font-weight: var(--font-weight);
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
 }
