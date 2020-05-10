@@ -31,6 +31,10 @@ img {
     display: block;
     object-fit: cover;
 }
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
 /*NAVIGATION STYLES*/
 .nav {
     position: relative;
