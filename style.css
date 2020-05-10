@@ -1,3 +1,4 @@
+/*BASE STYLES*/
 :root {
     --primary-dark-blue: hsl(233, 26%, 24%);
     --primary-lime-green: hsl(136, 65%, 51%);
@@ -13,4 +14,8 @@
 
     --mobile: 375px;
     --desktop: 1440px;
+}
+@font-face {
+    font-family: 'Public Sans', sans-serif;
+    src: url("font/PublicSans-Regular.ttf") format("ttf");
 }
