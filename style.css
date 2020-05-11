@@ -12,6 +12,8 @@
     --font-base: 18px;
     --font-weight: 300;
 
+    --transition: color 0.5s ease-in;
+
     --mobile: 375px;
     --desktop: 1440px;
 }
@@ -171,7 +173,7 @@ a {
 }
 .blog-articles h3 {
     margin-left: 29px;
-    transition: color 0.5s ease-in;
+    transition: var(--transition);
 }
 .blog-articles h3:hover {
     color: var(--primary-lime-green);
@@ -235,6 +237,10 @@ h3 {
 }
 .nav-list__items-footer a {
     color: white;
+    transition: var(--transition);
+}
+.nav-list__items-footer a:hover {
+    color: var(--primary-lime-green);
 }
 .nav-list-footer {
     display: flex;
