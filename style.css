@@ -44,7 +44,6 @@ a {
     position: relative;
     width: 100%;
     height: 60px;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -131,7 +130,7 @@ a {
 }
 /*ABOUT STYLES*/
 .about {
-    background: var(--neutral-very-light-gray);
+    background: var(--neutral-light-grayish-blue);
     padding-bottom: 45px;
 }
 .article-img{
@@ -152,7 +151,7 @@ a {
     justify-content: center;
     align-items: center;
     padding-top: 55px;
-    background-color: var(--neutral-light-grayish-blue);
+    background-color: var(--neutral-very-light-gray);
 }
 .blog-img {
     width: 100%;
@@ -218,7 +217,6 @@ h3 {
 .social {
     display: flex;
     justify-content: center;
-    border: 1px solid red;
     width: 100%;
 }
 .social-links {
@@ -247,4 +245,10 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.footer-container .request-info-btn {
+    margin: 12px 0 22px 0;
+}
+.copy-footer {
+    padding: 0 0 40px 0;
 }
