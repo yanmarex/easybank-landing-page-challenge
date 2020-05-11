@@ -99,6 +99,13 @@ a {
     padding: 0px 2em;
     line-height: 1.7;
 }
+.request-info-btn {
+    color: white;
+    padding: 0.8em 2em;
+    background-image: linear-gradient(to right, var(--primary-lime-green) 0%,var(--primary-bright-cyan) 100%);
+    border-radius: 30px;
+    font-size: 0.8em;
+}
 /*ABOUT STYLES*/
 .article-img{
     width: 100px;
@@ -162,7 +169,4 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.request-info-btn {
-    color: white;
 }
