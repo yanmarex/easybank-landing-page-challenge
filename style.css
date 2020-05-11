@@ -64,6 +64,34 @@ a {
 .is-hidden {
     visibility: hidden;
 }
+/*HOME STYLES*/
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-bg {
+    background: url("img/image-mockups.png")center bottom no-repeat,url("img/bg-intro-mobile.svg") center no-repeat;
+    width: 100%;
+    height: 284px;
+    background-size: 327px, cover;
+}
+.copy-title {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+    letter-spacing: 0.021em;
+    max-width: 304px;
+}
+.copy-description {
+    color: var(--neutral-grayish-blue);
+    text-align: justify;
+    max-width: 325px;
+    word-break: break-word;
+    font-size: 1em;
+    margin-top: -12px;
+}
 /*ABOUT STYLES*/
 .article-img{
     width: 100px;
