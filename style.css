@@ -171,6 +171,11 @@ a {
 }
 .blog-articles h3 {
     margin-left: 29px;
+    transition: color 0.5s ease-in;
+}
+.blog-articles h3:hover {
+    color: var(--primary-lime-green);
+    cursor: pointer;
 }
 .blog-articles .copy-description {
     line-height: 1.4;
