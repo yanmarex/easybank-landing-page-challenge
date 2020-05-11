@@ -62,7 +62,7 @@ a {
     justify-content: space-evenly;
     align-items: center;
     box-shadow: 4px 14px 15px 9px rgba(5, 16, 17, 0.2);
-    transition: all 0.3s ease-in;
+    transition: opacity 0.3s ease-in;
 }
 .nav-list__items {
     display: inline;
@@ -89,6 +89,9 @@ a {
     width: 50px;
     height: 30px;
     margin-right: 20px;
+}
+.btn-menu-close {
+    background: url("img/icon-close.svg") center no-repeat;
 }
 /*HOME STYLES*/
 .home {
