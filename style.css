@@ -84,18 +84,20 @@ a {
 }
 .copy-title {
     text-align: center;
-    font-size: 2em;
+    font-size: 2.1em;
     font-weight: 500;
     letter-spacing: 0.021em;
-    max-width: 304px;
+    max-width: 305px;
 }
 .copy-description {
     color: var(--neutral-grayish-blue);
     text-align: justify;
-    max-width: 325px;
+    max-width: 288px;
     word-break: break-word;
-    font-size: 1em;
+    font-size: 0.8em;
     margin-top: -12px;
+    padding: 0px 2em;
+    line-height: 1.7;
 }
 /*ABOUT STYLES*/
 .article-img{
