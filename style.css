@@ -133,9 +133,10 @@ a {
     padding-bottom: 45px;
 }
 .article-img{
-    width: 100px;
-    height: 100px;
-}.info-articles {
+    width: auto;
+    height: auto;
+}
+.info-articles {
     display: flex;
     flex-direction: column;
     justify-content: center;
