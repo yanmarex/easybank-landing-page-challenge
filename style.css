@@ -179,6 +179,13 @@ h3 {
     font-size: 1.2em;
     font-weight: normal;
 }
+.small-copy {
+    color: var(--neutral-grayish-blue);
+    text-align: left;
+    align-self: flex-start;
+    padding-top: 25px;
+    font-size: 0.7em;
+}
 /*FOOTER STYLES*/
 .footer-container {
     width: 100%;
