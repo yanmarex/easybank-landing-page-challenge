@@ -100,11 +100,29 @@ a {
     line-height: 1.7;
 }
 .request-info-btn {
+    position: relative;
     color: white;
     padding: 0.8em 2em;
     background-image: linear-gradient(to right, var(--primary-lime-green) 0%,var(--primary-bright-cyan) 100%);
     border-radius: 30px;
     font-size: 0.8em;
+    z-index: 1;
+}
+.request-info-btn:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right, hsl(136, 78%, 66.1%) 0%,hsla(185.5, 70.3%, 51.2%, 0.58) 100%);
+    z-index: -1;
+    transition: opacity 0.5s linear;
+    opacity: 0;
+    border-radius: 30px;
+}
+.request-info-btn:hover::before {
+    opacity: 1;
 }
 /*ABOUT STYLES*/
 .article-img{
