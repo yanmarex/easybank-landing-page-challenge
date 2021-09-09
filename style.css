@@ -273,3 +273,23 @@ h3 {
 .copy-footer {
     padding: 0 0 40px 0;
 }
+@media (min-width: 815px) {
+    .footer-container {
+        flex-direction: row;
+    }
+    .logo {
+        margin-left: 0px;
+    }
+    .nav-footer {
+        margin: 0 38px 0 0;
+    }
+    .copy-footer {
+        padding: 0px 0 0px 130px;
+    }
+    .nav-list-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+}
